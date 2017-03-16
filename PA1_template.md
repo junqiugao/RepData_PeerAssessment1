@@ -48,7 +48,7 @@ The mean and median numbers of steps taken each day are both equal **10770**
 stepsby5min <- aggregate(. ~ interval, data = activity, mean)
 plot(stepsby5min$steps, type="l",main="Activity Pattern", xlab="5 Minute Interval", ylab="Time series plot of the average number of steps taken")
 ```
-
+![image](https://github.com/junqiugao/RepData_PeerAssessment1/blob/master/P2.png)
 
   The maximum is calucated as followed.  
 
@@ -119,6 +119,10 @@ barplot(totalperday1,
 ##Calculate mean and median number of steps taken each day
 summary(totalperday1)
 ```
+
+![image](https://github.com/junqiugao/RepData_PeerAssessment1/blob/master/P3.png)
+
+
 The mean numbers of steps taken each day is **9354** and the median numbers of steps taken is **10400**  
 
 
@@ -155,4 +159,4 @@ stepsintervalweekend <- aggregate(stepsweekend$steps ~ stepsweekend$interval,
 plot(stepsintervalweekend, type = "l", main = "Weekend",
      ylab = "Steps", xlab = "", col = "red")
 ```
-
+![image](https://github.com/junqiugao/RepData_PeerAssessment1/blob/master/P4.PNG)
