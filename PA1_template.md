@@ -35,7 +35,7 @@ barplot(totalperday,
 ##Calculate mean and median number of steps taken each day
 summary(totalperday)
 ```
-![image]( RepData_PeerAssessment1/P1.png )
+![image](https://github.com/junqiugao/RepData_PeerAssessment1/blob/master/P1.png )
 
 The mean and median numbers of steps taken each day are both equal **10770**
 
